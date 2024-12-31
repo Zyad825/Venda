@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Z-Video</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #000;
+        }
+
+        .button {
+            background-color: #007bff; /* لون الخلفية */
+            color: white; /* لون النص */
+            border: none;
+            padding: 15px 30px;
+            font-size: 18px;
+            font-weight: bold;
+            border-radius: 5px; /* زاوية مستديرة */
+            cursor: pointer;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2); /* ظل */
+            transition: background-color 0.3s ease, transform 0.2s ease;
+        }
+
+        .button:hover {
+            background-color: #0056b3; /* لون الخلفية عند التمرير */
+            transform: scale(1.05); /* تكبير بسيط */
+        }
+
+        .button:active {
+            background-color: #004080; /* لون عند الضغط */
+            transform: scale(0.95); /* تصغير بسيط */
+        }
+    </style>
+</head>
+<body>
+    <a href="index.php"><button class="button">اضغط هنا</button></a>
+</body>
+</html>
